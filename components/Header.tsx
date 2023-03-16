@@ -2,6 +2,11 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
+import Image from 'next/image'
+import logo from '../public/logos/ai-generated/fragmented.png'
+
+
+
 const navigation = [
   { name: 'Methodology', href: '#' },
   { name: 'Submit', href: '#' },
@@ -11,16 +16,21 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <header className="bg-slate-900">
+      <nav className="mx-auto flex max-w-8xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex items-center gap-x-12">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
-            <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+            <span className="sr-only">Prompt Gallery</span>
+            <Image 
+              src={logo}
+              className="h-12 w-auto"
+              alt="Prompt Gallery Logo"
+            />
+            
           </a>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
+              <a key={item.name} href={item.href} className="text-md font-semibold leading-6 text-white">
                 {item.name}
               </a>
             ))}
