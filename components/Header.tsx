@@ -3,7 +3,7 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 import Image from 'next/image'
-import logo from '../public/logos/ai-generated/fragmented.png'
+import logo from '../public/logos/fragmented_cropped.png'
 
 
 
@@ -16,7 +16,8 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-slate-900">
+    
+    <header className="bg-black">
       <nav className="mx-auto flex max-w-8xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex items-center gap-x-12">
           <a href="#" className="-m-1.5 p-1.5">
@@ -30,7 +31,7 @@ export default function Example() {
           </a>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-md font-semibold leading-6 text-white">
+              <a key={item.name} href={item.href} className="text-lg font-semibold leading-6 text-white">
                 {item.name}
               </a>
             ))}
@@ -99,5 +100,7 @@ export default function Example() {
         </Dialog.Panel>
       </Dialog>
     </header>
+
+    
   )
 }
