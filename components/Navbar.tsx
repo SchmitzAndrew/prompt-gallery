@@ -6,7 +6,7 @@ import Image from 'next/image'
 import logo from '../public/logos/fragmented_cropped.png'
 
 
-
+// TODO: Style mobile navbar
 const navigation = [
   { name: 'Methodology', href: '#' },
   { name: 'Submit', href: '#' },

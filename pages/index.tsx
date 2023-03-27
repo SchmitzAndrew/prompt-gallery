@@ -1,12 +1,14 @@
-import Header from "../components/Header"
+import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 
-export default function Home() {
+export default function Index() {
   return (
-    <>
-      <Header></Header>
+    
+      
         <h1 className="text-3xl font-bold underline">
           Hello world!
         </h1>
-    </>
+    
+    
   )
 }
