@@ -32,9 +32,9 @@ export default function Footer() {
             <h2 id="footer-heading" className="sr-only">
                 Footer
             </h2>
-            <div className="mx-auto max-w-8xl px-8 pb-8 ">
-                <div className="border-t border-white/10 pt-5 flex items-center justify-between">
-                    <p className=" text-xs leading-5 text-gray-400 ">
+            <div className="mx-auto max-w-8xl px-8 py-7 ">
+                <div className="flex items-center justify-between">
+                    <p className=" text-xs leading-5 text-gray-300 ">
                         &copy; 2023 Prompt Gallery
                     </p>
                     <div className="flex space-x-6 ">
