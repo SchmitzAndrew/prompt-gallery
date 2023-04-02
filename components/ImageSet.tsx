@@ -62,16 +62,25 @@ export default function ImageSet({image, prompt, author, link}: ImageSetProps) {
                         </article>
                     ))}
                 </div>
-                <p className="">{prompt}</p>
-                <p className="">{author}</p>
-                <a href={link} target="_blank">
-                    <Image
-                        src={link_icon_filepath}
-                        alt={link_icon_filepath}
-                        width={100}
-                        height={100}
-                    />
-                </a>
+                
+                <div className="flex justify-between">
+                    <div>
+                        <p className="">{prompt}</p>
+                    </div>
+                    <div className="">
+                        <div className="flex flex-row">
+                            <p className="">{author}</p>
+                            <a href={link} target="_blank">
+                                <Image
+                                    src={link_icon_filepath}
+                                    alt={link_icon_filepath}
+                                    width={25}
+                                    height={25}
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 
                 
 
