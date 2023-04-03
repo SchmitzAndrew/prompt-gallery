@@ -45,7 +45,7 @@ export default function ImageSet({image, prompt, author, link}: ImageSetProps) {
     
 
     return (
-            <div className="mx-auto max-w-7xl px-6">
+        <div>
                 <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-x-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                     {Object.entries(filepaths).map(([key,value]: [string, string]) => (
                         <article key={key} className="flex flex-col items-start justify-between">
@@ -63,17 +63,18 @@ export default function ImageSet({image, prompt, author, link}: ImageSetProps) {
                     ))}
                 </div>
                 
-                <div className="flex justify-between">
+                <div className="flex justify-between py-2">
                     <div>
-                        <p className="">{prompt}</p>
+                        <p className="font-semibold text-white">{prompt}</p>
                     </div>
                     <div className="">
                         <div className="flex flex-row">
-                            <p className="">{author}</p>
+                            <p className="font-semibold text-white">{author}</p>
                             <a href={link} target="_blank">
                                 <Image
                                     src={link_icon_filepath}
                                     alt={link_icon_filepath}
+                                
                                     width={25}
                                     height={25}
                                 />
@@ -81,15 +82,6 @@ export default function ImageSet({image, prompt, author, link}: ImageSetProps) {
                         </div>
                     </div>
                 </div>
-                
-                
-
-                        
-
-                   
-            </div>
-        
-
-        
+        </div>
     )
 }
