@@ -9,8 +9,8 @@ import logo from '../public/logos/fragmented_cropped.png'
 
 // TODO: Style mobile navbar
 const navigation = [
-  { name: 'Methodology', href: '#' },
-  { name: 'Contribute', href: '#' },
+  { name: 'Methodology', href: '/methodology' },
+  { name: 'Contribute', href: 'https://github.com/SchmitzAndrew/prompt-gallery#readme' },
 ]
 
 export default function Navbar() {
