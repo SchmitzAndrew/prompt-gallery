@@ -16,7 +16,9 @@ Please add your own prompt by following the instructions below:
 
 The ideal prompt is one that has not been fine tuned, and provides a good representation of the capabilities of each model. Please make sure all contributions are appropriate. 
 
+EXAMPLE: mountain range on mars, detailed, beautiful, digital art, Andrew Schmitz, https://github.com/SchmitzAndrew
 
+Please find more examples on the wesbite and in prompts.txt.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
