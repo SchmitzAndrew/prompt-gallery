@@ -8,17 +8,24 @@ I'm looking to crowdsource the prompts used to get a wide variety of images and 
 
 Please add your own prompt by following the instructions below:
 
-1. Message me with your prompt, name, and link to your website. (Twitter/ GitHub/ Portfolio)
+1. Message me with your prompt, name, and link to your website. (Twitter/ GitHub/ Portfolio) (If you want to be lame, see option 2 for a super fun and cooler method)
 
 -or-
 
-2. Contribute to the prompt.txt file in this repository by making a pull request. (This is the super fun and cool method)
+2. Contribute to `prompts.config.ts` file in this repository by making a pull request. (This is the super fun and cool method)
 
-The ideal prompt is one that has not been fine tuned, and provides a good representation of the capabilities of each model. Please make sure all contributions are appropriate. 
+The ideal prompt is one that has not been fine tuned, and provides a good representation of the capabilities of each model. Please make sure all contributions are appropriate.
 
-EXAMPLE: mountain range on mars, detailed, beautiful, digital art, Andrew Schmitz, https://github.com/SchmitzAndrew
+EXAMPLE: 
+```typescript
+'mountain-range': {
+    prompt: 'mountain range on mars, detailed, beautiful, digital art',
+    authorName: 'Andrew Schmitz',
+    authorLink: 'https://github.com/SchmitzAndrew'
+}
+````
 
-Please find more examples on the wesbite and in prompts.txt.
+Please find more examples on the wesbite and in `prompts.config.ts`.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
