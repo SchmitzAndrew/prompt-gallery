@@ -1,10 +1,9 @@
-import ReactNode from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
-
+import ReactNode from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 interface Props {
-    children: React.ReactNode
+    children: React.ReactNode;
 }
 
 export default function Layout({ children }: Props) {
@@ -16,5 +15,5 @@ export default function Layout({ children }: Props) {
                 <Footer />
             </div>
         </>
-    )
+    );
 }
