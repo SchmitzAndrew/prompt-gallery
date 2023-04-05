@@ -63,25 +63,41 @@ export default function ImageSet({image, prompt, author, link}: ImageSetProps) {
                     ))}
                 </div>
                 
-                <div className="flex justify-between py-2">
-                    <div>
-                        <p className="font-semibold text-white">{prompt}</p>
+                {/* <div className="flex justify-between py-2">
+                    <div className="">
+                        <p className="font-semibold text-white whitespace-wrap max-w-xs md:max-w-2xl">{prompt}</p>
                     </div>
                     <div className="">
                         <div className="flex flex-row">
-                            <p className="font-semibold text-white">{author}</p>
+                            <p className="font-semibold text-white md:pr-4 ">{author}</p>
                             <a href={link} target="_blank">
                                 <Image
                                     src={link_icon_filepath}
                                     alt={link_icon_filepath}
-                                
                                     width={25}
                                     height={25}
                                 />
                             </a>
                         </div>
                     </div>
+                </div> */}
+            <div className="flex flex-col md:flex-row justify-between py-2">
+                <div className="md:max-w-2xl">
+                    <p className="font-semibold text-white whitespace-wrap max-w-xs md:max-w-full">{prompt}</p>
                 </div>
+                <div className="flex flex-row mt-2 md:mt-0">
+                    <p className="font-semibold text-white pr-4">{author}</p>
+                    <a href={link} target="_blank">
+                        <Image
+                            src={link_icon_filepath}
+                            alt={link_icon_filepath}
+                            width={25}
+                            height={25}
+                        />
+                    </a>
+                </div>
+            </div>
+
         </div>
     )
 }

@@ -4,7 +4,7 @@ import ImageSet from "../components/ImageSet"
 
 export default function Index() {
   return (
-    <div className = "bg-black">
+    <div className = "bg-black pb-8">
       <div className="mx-auto max-w-7xl px-6">
         <h1 className="text-3xl font-bold text-white">
           Prompt Gallery
