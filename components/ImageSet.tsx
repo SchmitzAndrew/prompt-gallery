@@ -1,17 +1,3 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/line-clamp'),
-    ],
-  }
-  ```
-*/
 import Image from "next/image";
 
 interface ImageSetProps {
