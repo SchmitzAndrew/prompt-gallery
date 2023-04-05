@@ -1,15 +1,13 @@
-import Navbar from "../components/Navbar"
-import Footer from "../components/Footer"
 import ImageSet from "../components/ImageSet"
 
 export default function Index() {
   return (
-    <div className = "bg-black pb-8">
+    <div className = "pb-8">
       <div className="mx-auto max-w-7xl px-6">
         <h1 className="text-3xl font-bold text-white ">
           Prompt Gallery
         </h1>
-        <h2 className="text-white font-semibold pt-4">A collection of prompts and associated images from DALLE 2, Stable Diffusion, and Midjourney.</h2>
+        <h2 className="text-white font-semibold pt-4">A collection of prompts and associated images from DALL·E2, Stable Diffusion, and Midjourney.</h2>
 
         <ImageSet image='rocket' prompt= 'rocket launch, stary night, digital art' author = 'Andrew Schmitz' link = 'https://twitter.com/Big_Schmitz'/>
         <ImageSet image='koala' prompt= 'seventeen parachuting koalas' author ='Justin Eldrige' link= 'https://eldridgejm.github.io/'/>

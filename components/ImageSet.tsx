@@ -46,7 +46,7 @@ export default function ImageSet({image, prompt, author, link}: ImageSetProps) {
 
     return (
         <div>
-                <div className="bg-black mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-x-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                <div className= "mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-x-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                     {Object.entries(filepaths).map(([key,value]: [string, string]) => (
                         <article key={key} className="flex flex-col items-start justify-between">
                             <div className="relative w-full">
