@@ -10,7 +10,7 @@ import logo from '../public/logos/fragmented_cropped.png'
 // TODO: Style mobile navbar
 const navigation = [
   { name: 'Methodology', href: '#' },
-  { name: 'Submit', href: '#' },
+  { name: 'Contribute', href: '#' },
 ]
 
 export default function Navbar() {
