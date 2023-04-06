@@ -46,4 +46,16 @@ export const prompts: PromptList = {
     authorName: "Lola Egherman",
     authorLink: "https://github.com/oohwooh",
   },
+  cartoonBackflip: {
+    prompt:
+      "person doing a backflip, 80's cartoon",
+    authorName: "Andrew Masek",
+    authorLink: "https://github.com/portoaj",
+  },
+  yachtSunrise: {
+    prompt:
+      "sunrise over the ocean with a yacht, hyperrealistic",
+    authorName: "Andrew Masek",
+    authorLink: "https://github.com/portoaj",
+  },
 };
