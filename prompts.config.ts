@@ -38,6 +38,11 @@ export const prompts: PromptList = {
         authorName: "Adam Khoja",
         authorLink: "https://twitter.com/AKhoja10",
     },
+    grass: {
+        prompt: "man lying down in the grass and looking up at the stars and the moon",
+        authorName: "Christina Huang",
+        authorLink: "https://twitter.com/silkthyme",
+    },
     opossum: {
         prompt: "Photorealistic opossum doing a kickflip on a skateboard, action shot, motion blur",
         authorName: "Lola Egherman",
@@ -52,5 +57,20 @@ export const prompts: PromptList = {
         prompt: "Unicorn floating in space on a homer Simpson style donut hyper realistic",
         authorName: "Shubham Patil",
         authorLink: "https://twitter.com/ShubhamPatilsd",
+    },
+    renaissance: {
+        prompt: "a renaissance painting of a house on the bluffs overlooking a vast moor with blooming gooseberry thickets",
+        authorName: "Christina Huang",
+        authorLink: "https://twitter.com/silkthyme",
+    },
+    wave:{
+        prompt: "crashing wave, tsunami, glassy, sunset, clouds, beautiful",
+        authorName: "Andrew Schmitz",
+        authorLink: "https://aschmitz.dev",
+    },
+    cartoonBackflip: {
+        prompt: "person doing a backflip, 80's cartoon",
+        authorName: "Andrew Masek",
+        authorLink: "https://github.com/portoaj",
     },
 };
