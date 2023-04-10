@@ -63,14 +63,19 @@ export const prompts: PromptList = {
         authorName: "Christina Huang",
         authorLink: "https://twitter.com/silkthyme",
     },
-    wave:{
+    wave: {
         prompt: "crashing wave, tsunami, glassy, sunset, clouds, beautiful",
         authorName: "Andrew Schmitz",
         authorLink: "https://aschmitz.dev",
     },
-    cartoonBackflip: {
+    backflip: {
         prompt: "person doing a backflip, 80's cartoon",
         authorName: "Andrew Masek",
         authorLink: "https://github.com/portoaj",
+    },
+    pencilWorld: {
+        prompt: "A tiny, microscopic world living on the tip of a pencil",
+        authorName: "Samuel Mai",
+        authorLink: "https://github.com/KawsInTheLab",
     },
 };
