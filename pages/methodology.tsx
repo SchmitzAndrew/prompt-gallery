@@ -1,5 +1,15 @@
+import Head from 'next/head';
 export default function Methodology() {
     return (
+        <div>
+            <Head>
+                <title>Methodology</title>
+                <meta name="description" content="Information about how Prompt Gallery was created." />
+                <meta property="og:title" content="Prompt Gallery" />
+                <meta property="og:description" content="Information about how Prompt Gallery was created." />
+                <meta charSet="utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+            </Head>
         <div className="pb-8">
             <div className="mx-auto max-w-7xl px-6">
                 <h1 className="text-3xl font-bold text-white ">Methodology</h1>
@@ -102,6 +112,7 @@ export default function Methodology() {
                     let me know!
                 </p>
             </div>
+        </div>
         </div>
     );
 }
