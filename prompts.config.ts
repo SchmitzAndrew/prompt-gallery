@@ -23,6 +23,12 @@ export const prompts: PromptList = {
         authorName: "Andrew Schmitz",
         authorLink: "https://twitter.com/Big_Schmitz",
     },
+    popArt: {
+        prompt: "Pop Art Deco landscape art, beautiful beach, sunset, volumetric, cinematic lighting",
+        authorName: "Heather Cooper",
+        authorLink: "https://twitter.com/HBCoop_"
+
+    },
     koala: {
         prompt: "seventeen parachuting koalas",
         authorName: "Justin Eldrige",
@@ -37,6 +43,11 @@ export const prompts: PromptList = {
         prompt: "Man watching raven perching on a bust of pallas above his door haunted shadows liminal surrealist",
         authorName: "Adam Khoja",
         authorLink: "https://twitter.com/AKhoja10",
+    },
+    hexagon:{
+        prompt: "Hexagon Landscape art, volumetric, highly detailed, 8k, turquoise, yellow, hyper realistic",
+        authorName: "Heather Cooper",
+        authorLink: "https://twitter.com/HBCoop_"
     },
     grass: {
         prompt: "man lying down in the grass and looking up at the stars and the moon",
@@ -68,9 +79,15 @@ export const prompts: PromptList = {
         authorName: "Andrew Schmitz",
         authorLink: "https://aschmitz.dev",
     },
+    synthwave:{
+        prompt: "Minimalist abstract synthwave scene, purple orange yellow, UHD, 3D, 8k, perfect composition",
+        authorName: "Heather Cooper",
+        authorLink: "https://twitter.com/HBCoop_"
+    },
     cartoonBackflip: {
         prompt: "person doing a backflip, 80's cartoon",
         authorName: "Andrew Masek",
         authorLink: "https://github.com/portoaj",
     },
+
 };
