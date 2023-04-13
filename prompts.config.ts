@@ -44,6 +44,11 @@ export const prompts: PromptList = {
         authorName: "Adam Khoja",
         authorLink: "https://twitter.com/AKhoja10",
     },
+    babyPanda: {
+        prompt: "baby panda writing code on a laptop",
+        authorName: "Suraj Rampure",
+        authorLink: "https://rampure.org/",
+    },
     hexagon:{
         prompt: "Hexagon Landscape art, volumetric, highly detailed, 8k, turquoise, yellow, hyper realistic",
         authorName: "Heather Cooper",
