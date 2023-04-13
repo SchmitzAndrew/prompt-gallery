@@ -79,6 +79,11 @@ export const prompts: PromptList = {
         authorName: "Christina Huang",
         authorLink: "https://twitter.com/silkthyme",
     },
+    mathAvocados:{
+        prompt: "avocados at a chalkboard writing math with summation notation",
+        authorName: "Suraj Rampure",
+        authorLink: "https://rampure.org/",
+    },
     wave: {
         prompt: "crashing wave, tsunami, glassy, sunset, clouds, beautiful",
         authorName: "Andrew Schmitz",
