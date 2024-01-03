@@ -34,7 +34,7 @@ export default function Footer() {
             <div className="mx-auto max-w-8xl px-8 py-7 ">
                 <div className="flex items-center justify-between">
                     <p className=" text-xs leading-5 text-gray-300 ">
-                        &copy; 2023 Prompt Gallery
+                        &copy; 2024 Prompt Gallery
                     </p>
                     <div className="flex space-x-6 ">
                         {navigation.social.map((item) => (
